@@ -44,6 +44,7 @@ productForm.addEventListener('submit', function(event) {
         price: Number(productPrice.value)
     }
     products.push(newProduct)
+    showNotification()
     renderProducts()
     clearForm()
 })
